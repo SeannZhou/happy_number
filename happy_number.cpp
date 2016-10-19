@@ -14,8 +14,6 @@ int main()
 	int sum=0;	//check for happy number
 	int again=0;
 
-	while (again==0)
-	{
 		cout << "Please insert a number to see if it's happy or not\n";		//State the prompt
 		cin >> num;
 	
@@ -39,10 +37,6 @@ int main()
 			else if (sum== 4)
 				cout << "Your number is not a happy number\n";
 
-		cout << "Would you like to do another check?\nYes- [0]	No- [Any other number]\n";
-		cin >> again;
-	}
-	cout << "Thank You!\n";
 	return 0;
 }
 
