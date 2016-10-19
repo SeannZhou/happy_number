@@ -1,6 +1,6 @@
 /*
 	Sean Zhou
-	Description: Happy Number 
+	Description: Happy Numbers 
 */
 
 #include<iostream>
